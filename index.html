@@ -1,156 +1,90 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Katalog Promo Shopee & Tokopedia</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anisha – Penyedia Solusi Teknologi Digital</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f4f4f4;
-      margin: 0;
-      padding: 20px;
-    }
-    h1 {
-      text-align: center;
-      color: #ff6600;
-    }
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 20px;
-      margin-top: 30px;
-    }
-    .card {
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-    }
-    .card img {
-      width: 100%;
-      object-fit: cover;
-      height: 160px;
-    }
-    .card-content {
-      padding: 10px;
-      flex: 1;
-    }
-    .card-content h3 {
-      font-size: 16px;
-      margin: 0 0 8px;
-    }
-    .card-content a {
-      display: inline-block;
-      text-decoration: none;
-      background: #ff6600;
-      color: white;
-      padding: 8px 12px;
-      border-radius: 4px;
-      transition: background 0.3s;
-    }
-    .card-content a:hover {
-      background: #e65500;
-    }
-    footer {
-      text-align: center;
-      margin-top: 40px;
-      font-size: 14px;
-      color: #666;
-    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background: #f5f6fa; color: #1c1c1c; line-height: 1.6; }
+    header { background: #0d6efd; color: #fff; padding: 60px 20px; text-align: center; }
+    header img { max-width: 120px; margin-bottom: 20px; }
+    header h1 { font-size: 2.5em; margin-bottom: 10px; }
+    header p { font-size: 1.1em; }
+    nav { display: flex; justify-content: center; gap: 25px; padding: 20px 0; background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    nav a { text-decoration: none; color: #0d6efd; font-weight: 600; transition: 0.3s; }
+    nav a:hover { color: #0056b3; }
+    section { max-width: 950px; margin: 50px auto; padding: 30px 25px; background: #fff; border-radius: 12px; box-shadow: 0 5px 20px rgba(0,0,0,0.05); }
+    section h2 { color: #0d6efd; margin-bottom: 20px; font-size: 1.9em; }
+    section p, section ul { font-size: 1em; margin-bottom: 20px; }
+    ul { list-style: disc; padding-left: 20px; }
+    footer { text-align: center; padding: 40px 20px; color: #555; font-size: 0.9em; }
+    footer a { color: #0d6efd; text-decoration: none; }
+    .button { display: inline-block; padding: 10px 22px; background: #0d6efd; color: #fff; border-radius: 6px; text-decoration: none; font-weight: 600; transition: 0.3s; }
+    .button:hover { background: #0056b3; }
   </style>
 </head>
 <body>
-  <h1>🔥 Katalog Promo Shopee & Tokopedia 🔥</h1>
-  
-  <div class="grid-container">
 
-    <div class="card">
-      <img src="https://cdn-icons-png.flaticon.com/512/870/870910.png" alt="Promo Abc Shopee" />
-      <div class="card-content">
-        <h3>Promo Abc Shopee</h3>
-        <a href="https://s.shopee.co.id/Vxnjdj6eN" target="_blank">Beli Sekarang</a>
-      </div>
-    </div>
+  <header>
+    <img src="https://via.placeholder.com/120x120.png?text=Logo" alt="Anisha Logo">
+    <h1>Anisha</h1>
+    <p>Penyedia Solusi Teknologi dan Pengelolaan Sistem Digital</p>
+  </header>
 
-    <div class="card">
-      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968252.png" alt="Promo Tokopedia" />
-      <div class="card-content">
-        <h3>Promo Tokopedia</h3>
-        <a href="https://www.tokopedia.com/wishlist/collection/10255779?utm_source=salinlink&utm_medium=share&utm_campaign=WISHLIST_COLLECTION-29356669-10255779-051025-contextual_image" target="_blank">Beli Sekarang</a>
-      </div>
-    </div>
+  <nav>
+    <a href="#services">Layanan</a>
+    <a href="#data-platform">Pengelolaan Data</a>
+    <a href="#contact">Kontak</a>
+  </nav>
 
-    <div class="card">
-      <img src="https://m.media-amazon.com/images/I/71h5TMMcYnL._AC_SL1500_.jpg" alt="Lampu LED Philips" />
-      <div class="card-content">
-        <h3>Promo Lampu LED Philips</h3>
-        <a href="https://s.shopee.co.id/3qEFga0NST" target="_blank">Lihat Promo</a>
-      </div>
-    </div>
+  <section id="services">
+    <h2>Layanan</h2>
+    <p>
+      Anisha menyediakan solusi teknologi untuk membantu individu dan bisnis
+      dalam mengelola aktivitas digital secara terstruktur, aman, dan efisien.
+      Layanan yang kami sediakan meliputi:
+    </p>
+    <ul>
+      <li>Pengelolaan konten media sosial berbasis kebutuhan pengguna</li>
+      <li>Bantuan pembuatan konten berbasis AI untuk caption dan deskripsi</li>
+      <li>Integrasi data afiliasi dan sistem pendukung promosi</li>
+      <li>Pemantauan performa konten dan laporan berbasis data</li>
+      <li>Seluruh aktivitas dilakukan dengan kontrol penuh di pihak pengguna</li>
+    </ul>
+  </section>
 
-    <div class="card">
-      <img src="https://m.media-amazon.com/images/I/81h+qaGUK6L._AC_SL1500_.jpg" alt="Lampu Han River" />
-      <div class="card-content">
-        <h3>Promo Lampu Han River</h3>
-        <a href="https://s.shopee.co.id/6prrGTAKJM" target="_blank">Lihat Promo</a>
-      </div>
-    </div>
+  <section id="data-platform">
+    <h2>Penggunaan dan Pengelolaan Data</h2>
+    <p>
+      Data yang diakses dari platform digital digunakan secara terbatas
+      untuk mendukung fungsi layanan yang diminta pengguna, antara lain:
+    </p>
+    <ul>
+      <li>Membantu pengelolaan dan publikasi konten sesuai preferensi</li>
+      <li>Menyesuaikan konten agar relevan dengan audiens</li>
+      <li>Melakukan pemantauan dasar untuk evaluasi performa</li>
+      <li>Seluruh data diproses secara aman dan tidak dibagikan ke pihak ketiga</li>
+    </ul>
+    <p>
+      Fokus kami adalah menyediakan sistem pendukung yang membantu pengguna
+      menjalankan aktivitas digital mereka secara lebih efektif.
+    </p>
+  </section>
 
-    <div class="card">
-      <img src="https://m.media-amazon.com/images/I/71rckikuAbL._AC_SL1500_.jpg" alt="Lampu Surya" />
-      <div class="card-content">
-        <h3>Promo Lampu Surya</h3>
-        <a href="https://s.shopee.co.id/1g9l74ABBD" target="_blank">Lihat Promo</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="https://m.media-amazon.com/images/I/71c6Ylqbj3L._AC_SL1500_.jpg" alt="Lampu & Raket Nyamuk Aoki" />
-      <div class="card-content">
-        <h3>Promo Lampu & Raket Nyamuk Aoki</h3>
-        <a href="https://s.shopee.co.id/2g2IIy99k1" target="_blank">Lihat Promo</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="https://m.media-amazon.com/images/I/81SgF7eKTxL._AC_SL1500_.jpg" alt="Lampu Ecolink" />
-      <div class="card-content">
-        <h3>Promo Lampu Ecolink</h3>
-        <a href="https://s.shopee.co.id/5L33TzHcqR" target="_blank">Lihat Promo</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="https://m.media-amazon.com/images/I/81znM+rb0HL._AC_SL1500_.jpg" alt="Peralatan Listrik" />
-      <div class="card-content">
-        <h3>Promo Peralatan Listrik</h3>
-        <a href="https://s.shopee.co.id/60IkHMyOma" target="_blank">Lihat Promo</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="https://m.media-amazon.com/images/I/61xZzPKH9LL._AC_SL1500_.jpg" alt="Perkakas Tekiro" />
-      <div class="card-content">
-        <h3>Promo Perkakas Tekiro</h3>
-        <a href="https://s.shopee.co.id/3VbPItMH6B" target="_blank">Lihat Promo</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="https://m.media-amazon.com/images/I/61Vf9A8Q6UL._AC_SL1500_.jpg" alt="Perkakas Isku" />
-      <div class="card-content">
-        <h3>Promo Perkakas Isku</h3>
-        <a href="https://s.shopee.co.id/3qEFhaNNzl" target="_blank">Lihat Promo</a>
-      </div>
-    </div>
-
-  </div>
+  <section id="contact">
+    <h2>Kontak Resmi</h2>
+    <p>Email: <a href="mailto:anishanuralam@proton.me">anishanuralam@proton.me</a></p>
+    <p>
+      <a class="button" href="mailto:anishanuralam@proton.me">Hubungi Kami</a>
+    </p>
+  </section>
 
   <footer>
-    Promo Belanja — Dibuat oleh Nisha
+    &copy; 2025 Anisha. Seluruh hak cipta dilindungi.<br>
+    Disediakan sebagai layanan solusi teknologi digital.
   </footer>
+
 </body>
 </html>
